@@ -2,8 +2,10 @@ x=0
 while x<=10:
     print(x)
     x=x+1
-    print("inside while")
-print("out of while loop")
+    if x == 5:
+        break
+else:
+  print("out of while loop")
 
 
 
@@ -12,4 +14,3 @@ x=0
 while x <len(city):
     print(city[x])
     x=x+1
-    
